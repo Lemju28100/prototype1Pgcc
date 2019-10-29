@@ -173,14 +173,14 @@ body
 	background-color: green;
 	text-align: center;
 	align-content: center;
-	height: 70vh;
+	height: 85vh;
 	
 }
 
 #topVideoDiv #videoBlockDiv
 {
-	height: 70vh;
-	width: 80%;
+	height: 85vh;
+	width: 100%;
 	background-color: red;
 	display: inline-block;
 	position: relative;
@@ -205,10 +205,10 @@ body
 	position: absolute;
 	display: inline-block;
 	z-index: 3;
-	right: 20%;
+	right: 15%;
 	text-align: left;
 	width: 70%;
-	top: 10%;
+	top: 7%;
 
 
 
@@ -234,7 +234,7 @@ body
 	padding: 2% 2%;
 	width: 25%;
 	margin: 1%;
-	margin-top: 10%;
+	margin-top: 20%;
 
 }
 
@@ -403,25 +403,336 @@ body
 {
 	height: 120vh;
 	background-color: blue;
+
+
 }
+
+#thisIsYourStageDiv #imageDiv
+{
+	background-color: green;
+	width: 85%;
+	height: 65vh;
+	margin-left: 7.5%;
+	overflow: hidden;
+}
+
+#thisIsYourStageDiv #imageDiv img
+{
+	margin-top: -10%;
+}
+
+#thisIsYourStageDiv #contentDiv
+{
+	background-color: pink;
+	width: 85%;
+	height: 55vh;
+	margin-left: 7.5%;
+	overflow: hidden;
+	text-align: center;
+	align-content: center;
+}
+
+#thisIsYourStageDiv #contentDiv h1
+{
+	font-size: 400%;
+}
+
+#thisIsYourStageDiv #contentDiv p
+{
+	font-size: 175%;
+	width: 50%;
+	margin-left: 25%;
+	line-height: 200%;
+}
+
+#thisIsYourStageDiv #contentDiv button
+{
+	background-color: yellow;
+	padding: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 #programCoursesStudentLifeDiv
 {
 	height: 100vh;
 	background-color: red;
+	
 }
+
+#programCoursesStudentLifeDiv a
+{
+	color: blue;
+	text-decoration: none;
+}
+
+#programCoursesStudentLifeDiv h1
+{
+	color: green;
+	font-size: 300%;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+#programCoursesStudentLifeDiv p
+{
+	font-size: 175%;
+	line-height: 150%;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#programCoursesStudentLifeDiv #contentDiv
+{
+	width: 85%;
+	background-color: blue;
+	height: 100vh;
+	margin-left: 7.5%;
+
+}
+
+#programsImageDiv
+{
+	overflow: hidden;
+	width: 50%;
+	float: left;
+	height: 50vh;
+}
+
+#programsContentDiv
+{
+	width: 50%;
+	float: right;
+	height: 50vh;
+	background-color: purple;
+
+
+}
+
+#studentContentDiv
+{
+	width: 50%;
+	float: left;
+	height: 50vh;
+	background-color: purple;
+
+}
+
+#studentImageDiv
+{
+	overflow: hidden;
+	width: 50%;
+	float: right;
+	height: 50vh;
+}
+
+
+
+
+
 
 #newsDiv
 {
-	height: 70vh;
+	height: 85vh;
 	background-color: cyan;
 }
 
+#newsDivContent
+{
+	background-color: yellow;
+	width: 85%;
+	margin-left: 7.5%;
+	height: 85vh;
+	overflow: hidden;
+}
+
+#newsDivContent h1
+{
+	font-size: 400%;
+	color: blue;
+	font-weight: bolder;
+	margin-top: 7%;
+	margin-left: 7%;
+}
+
+#newsDivContent img
+{
+	width: 100%;
+	height: 44%;
+}
+
+#newsDivContent a
+{
+	text-decoration:none;
+	
+}
+
+#newsDivContent .dates
+{
+	color: blue;
+	font-weight: bolder;
+	font-size: 90%;
+}
+
+#newsDivContent .content
+{
+	font-size: 190%;
+	line-height: 150%;
+	color: blue;
+	font-weight: bolder;
+}
+
+#pg
+{
+	background-color: green;
+	height: 60vh;
+	display: inline-block;
+	margin-left: 4.5%;
+	width: 27%;
+	overflow: hidden;
+}
+
+#rhoden
+{
+	background-color: red;
+	height: 60vh;
+	display: inline-block;
+	margin-left: 4.5%;
+	width: 27%;
+	overflow: hidden;
+}
+
+#dishes
+{
+	background-color: pink;
+	height: 60vh;
+	display: inline-block;
+	width: 27%;
+	overflow: hidden;
+	margin-left: 4.5%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
 #eventsDiv
 {
-	height: 40vh;
+	height: 50vh;
 	background-color: blue;
+	overflow: hidden;
+
 }
+
+#eventContentDiv
+{
+	overflow: hidden;
+	width: 80%;
+	background-color: cyan;
+	height: 50vh;
+	margin-left: 10%;
+}
+
+#eventsDiv h1
+{
+	font-size: 400%;
+	font-weight: bolder;
+	color: lightgreen;
+	margin-left: 3%;
+}
+
+#registration1Div
+{
+	background-color: pink;
+	height: 25vh;
+	width: 30%;
+	display: inline-block;
+	margin-left: 3%;
+}
+
+#registration2Div
+{
+	background-color: gray;
+	height: 25vh;
+	width: 30%;
+	display: inline-block;
+	margin-left: 3%;
+}
+
+#registration3Div
+{
+	background-color: brown;
+	height: 25vh;
+	width: 30%;
+	display: inline-block;
+	margin-left: 3%;
+}
+
+.month
+{
+	font-size: 110%;
+	color: blue;
+	margin: 0;
+	transform: translateY(10%);
+}
+
+.day
+{
+	display: inline-block;
+	font-size: 350%;
+	color: blue;
+	margin: 0;
+	transform: translateY(-55%);
+	font-weight: bolder;
+	
+}
+
+.contentP
+{
+	display: inline-block;
+	font-weight: bolder;
+	font-size: 150%;
+	width: 60%;
+
+}
+
+.time
+{
+	display: inline-block;
+	margin-top: 0;
+	margin-left: 15%; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #contactMeDiv
 {
